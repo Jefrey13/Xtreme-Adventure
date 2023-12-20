@@ -1,0 +1,30 @@
+.subscribe{
+    background-image: url(/assets/subscribe.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.subscribe__container h4{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--white);
+    text-align: center;
+}
+.subscribe__container form{
+    width: 50%;
+    max-width: 900px;
+    margin-inline: auto;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, .2);
+}
+.subscribe__container input{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+}

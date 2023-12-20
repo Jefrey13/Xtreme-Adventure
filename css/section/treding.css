@@ -1,0 +1,75 @@
+/*Trading section Start*/
+.trending__grid{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.trending__card{
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .1);
+    transition: .3;
+}
+.trending__card img{
+    margin-bottom: 1rem;
+    border-radius: 10px;
+
+    &:hover{
+        transition: transform .5s ease;
+        transform:translateY(1px);
+    }
+}
+.trending__card h4{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--text-dark);
+}
+.trending__card  p{
+    color: var(--text-dark);
+}
+.trending__details{
+    padding-block: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+.trending__details p{
+    font-weight: 500;
+    color: var(--text-dark);
+}
+.trending__details h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-dark);
+}
+.trending__rating span{
+    font-size: 1rem;
+    color: goldenrod;
+}
+.trending__rating p{
+    text-align: right;
+}
+.trending__card h5{
+    margin-bottom: .5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--text-dark);
+}
+.trending__card h5 span{
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+.trending__card p span{
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+.trending__card p span{
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+.trending__card:hover{
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, .2);
+}
+/*Trading section End*/
