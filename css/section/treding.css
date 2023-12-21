@@ -10,6 +10,10 @@
     border-radius: 10px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, .1);
     transition: .3;
+
+    &:hover{
+        box-shadow: 5px 5px 30px rgba(0, 0, 0, .2);
+    }
 }
 .trending__card img{
     margin-bottom: 1rem;
@@ -64,12 +68,5 @@
 .trending__card p span{
     font-size: 1.2rem;
     color: var(--primary-color);
-}
-.trending__card p span{
-    font-size: 1.2rem;
-    color: var(--primary-color);
-}
-.trending__card:hover{
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, .2);
 }
 /*Trading section End*/

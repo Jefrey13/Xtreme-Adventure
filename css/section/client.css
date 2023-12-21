@@ -9,6 +9,10 @@
     border-radius: 10px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, .1);
     transition: .3s;
+
+    &:hover{
+        box-shadow: 5px 5px 30px rgba(0, 0, 0, .2);
+    }
 }
 .client__card__header{
     margin-bottom: 1rem;
@@ -27,6 +31,7 @@
 .client__card p{
     margin-bottom: 1rem;
     color: var(--text-light);
+    line-height: 1.5rem;
 }
 .client__card__footer{
     display: flex;
@@ -41,7 +46,4 @@
     font-size: 1rem;
     font-weight: 600;
     color: var(--text-dark);
-}
-.client__card:hover{
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, .2);
 }

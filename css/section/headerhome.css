@@ -1,15 +1,16 @@
 /*Header Home section Start*/
 .header{
-    background: url(/assets/header.jpg);
+    background-image: url(/assets/header.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .nav{
     max-width: var(--max-width);
     margin: auto;
-    padding: 2rem 3rem;
+    padding: 2rem 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,7 +26,7 @@
     font-weight: 800;
 }
 .nav__links{
-    list-style: none;/*It's not required*/
+    list-style: none;
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -41,13 +42,13 @@
     }
 }
 
-.header__container{
+.header__container  {
     padding: 5rem 1rem 10rem;
 }
 .header__container h1{
-    margin-bottom: 3rem;
-    max-width: var(--max-width);
-    margin-inline: auto;
+    margin-bottom: 4rem;
+    max-width: 1000px;
+    margin-inline: auto; /*Si esta dentro de un contenedro flexbox, se centrara horizontalmente*/
     font-size: 3.5rem;
     color: var(--white);
     text-align: center;
@@ -81,7 +82,5 @@
     max-width: 140px;
     font-size: .9rem;
     background-color: var(--secondary-color);
-    padding: .5rem 1rem;
-    border-radius: 10px;
 }
 /*Header Home section End*/
